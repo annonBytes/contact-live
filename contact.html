@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--boostrap -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/contact-us.css" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo"
+              src="/images/login/logo.svg"
+              height="80px"
+              alt="Discover africa logo"
+            />
+          </a>
+          <button
+            onclick="myFunction()"
+            id="navbar-toggler"
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mr-4">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/faq.html" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/tours.html" class="nav-link custom-link">Tours</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/hotels.html" class="nav-link">Hotels</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item active mr-4">
+                <a href="/contact.html" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h2 class="title">CONTACT US</h2>
+    </header>
+
+    <main class="container">
+      <div class="contact-form pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-md-6 col-12 pr-5 pl-0" id="form-box">
+              <form action="POST" class="form">
+                <h1 class="text-cap mb-5">
+                  Get In Touch
+                </h1>
+                <p class="para">
+                  Here at Travels Company, our customer service is always ready
+                  for your requests, enquires and complaints. We would also love
+                  to hear from you about your amazing journey
+                </p>
+                <div class="form-group mb-5">
+                  <input
+                    type="text"
+                    class="form-control input-field px-4"
+                    placeholder="Your name"
+                  />
+                  <input
+                    type="text"
+                    class="form-control input-field px-4"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <input
+                    type="text"
+                    class="form-control input-field px-4"
+                    placeholder="Phone number"
+                  />
+                  <input
+                    type="text"
+                    class="form-control input-field px-4"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <textarea
+                    rows="4"
+                    cols="50"
+                    placeholder="   Message..."
+                  ></textarea>
+                </div>
+                <button class="text-uppercase py-3 px-5 btn send-btn">
+                  message
+                </button>
+              </form>
+            </div>
+            <div
+              class="col-xl-6 col-md-6 col-12 pl-5 pr-0 column"
+              id="image-box"
+            >
+              <div style="width: 100%">
+                <iframe
+                  width="100%"
+                  height="400"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=lagos%20nigeria+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                >
+                </iframe
+                ><a href="http://www.gps.ie/">Find my location</a>
+              </div>
+
+              <div class="mt-4">
+                <p>
+                  <i
+                    class="fas  fa-map-marker-alt icon fa-lg fa-fw"
+                    arial-hidden="true"
+                  ></i>
+                  24 avenue Street, Lekki Lagos State
+                </p>
+
+                <p>
+                  <i class="fas fa-phone icon fa-lg fa-fw"></i>
+                  +234 810 9819 775
+                </p>
+
+                <p>
+                  <i class="far fa-envelope fa-lg fa-fw icon"></i>
+                  travelcompany@gmail.com
+                </p>
+
+                <div class="socials">
+                  <div
+                    class="social-icons d-flex justify-content-center ml-auto mt-5"
+                  >
+                    <div
+                      class="mr-4 d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="social-links"
+                        ><i class="fab  fa-facebook-f"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="mr-4 d-flex  justify-content-center align-items-center"
+                    >
+                      <a href="#" class="social-links"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <a href="#" class="social-links"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="margin-top: 0px">
+        <div class="container-fluid">
+          <h3 class="font-weight-bold">Subscribe To Our Newsletter</h3>
+          <div class="row justify-content-center mt-4 mb-5">
+            <div class="col-7 col-md-4">
+              <input type="email" class="form-control form-control-lg" placeholder="Email" aria-placeholder="Email" name="name">
+            </div>
+            <div class="col-5 col-md-2">
+              <button class="btn btn-lg footer-btn">SUBSCRIBE</button>
+            </div>
+          </div>
+          <div class="footer-navigation mx-auto mt-4 ">
+            <div class="d-flex">
+              <a href="#" class="footer-logo"><img class="footer-logo" src="./images/login/logo.svg" width="180px" alt=""></a>
+              <ul class="footer-navs ml-auto">
+                <li class="d-inline-block mr-3">
+                  <a href="/index.html" class="footer-nav-link font-weight-bold">Home</a>
+                </li>
+                <li  class="d-inline-block mr-3">
+                  <a href="/tours.html" class="footer-nav-link font-weight-bold">Tours</a>
+                </li>
+                <li class="d-inline-block mr-3">
+                  <a href="/hotels.html" class="footer-nav-link font-weight-bold">Hotels
+                </li>
+                <li class="d-inline-block mr-3">
+                  <a href="/blog.html" class="footer-nav-link font-weight-bold">Blog</a>
+                </li>
+                <li class="d-inline-block mr-3">
+                  <a href="/contact.html" class="footer-nav-link font-weight-bold">Contact Us</a>
+                </li>
+                <li class="d-inline-block">
+                  <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                </li>
+              </ul>
+            </div>  
+            <hr>
+          </div>
+          <div class="social-icons d-flex justify-content-center mt-5">
+            <div class="mr-4 d-flex justify-content-center align-items-center">
+              <a href="#" class="social-links"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="mr-4 d-flex justify-content-center align-items-center">
+              <a href="#" class="social-links"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <p class="footer-text mx-auto text-white w-50 mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p class="copyright-text text-center text-white mt-4">2020 Discover Travel. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+    <!-- bootstrap js -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <!-- bootstrap js -->
+    <!-- your own script -->
+    <script src="src/index.js"></script>
+    <!--  -->
+  </body>
+</html>
